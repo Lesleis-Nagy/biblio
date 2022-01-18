@@ -3,9 +3,9 @@ Retrieve configuration information.
 """
 import os
 
-from basecmd.exceptions import UnsetEnvironmentVariableException
+from biblio.exceptions import UnsetEnvironmentVariableException
 
-from basecmd import GLOBAL_VARS
+from biblio import GLOBAL_VARS
 
 
 def get_db_file_from_env():

@@ -9,15 +9,15 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.pool import NullPool
 
-from basecmd.decorators import static
+from biblio.decorators import static
 
-from basecmd.exceptions import FileAlreadyExistsException
+from biblio.exceptions import FileAlreadyExistsException
 
-from basecmd.configuration import get_db_file_from_env
+from biblio.configuration import get_db_file_from_env
 
-from basecmd import GLOBAL_VARS
+from biblio import GLOBAL_VARS
 
-from basecmd.orm.schema import Base
+from biblio.orm.schema import Base
 
 
 @static(engine=None, Session=None)

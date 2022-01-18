@@ -7,7 +7,7 @@ __pycache__
 dist
 _build
 basecmd.egg-info
-
+biblio.egg-info
 # Files
 *.db
 MANIFEST

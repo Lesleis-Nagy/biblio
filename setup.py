@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="basecmd",
+    name="biblio",
     version="0.0.0",
     packages=find_packages(
         where="lib",
-        include="basecmd/*"
+        include="biblio/*"
     ),
     package_dir={"": "lib"},
     install_requires=[
@@ -15,6 +15,6 @@ setup(
     ],
     entry_points="""
     [console_scripts]
-    my_script=basecmd.my_script:main
+    biblio=biblio.entry_point:main
     """
 )

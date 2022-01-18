@@ -7,8 +7,8 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from basecmd.orm.schema import Base
-from basecmd.db import create_database
+from biblio.orm.schema import Base
+from biblio.db import create_database
 
 
 app = typer.Typer()

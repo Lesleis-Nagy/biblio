@@ -1,8 +1,8 @@
 import typer
 
-import basecmd.actions.db as db
+import biblio.actions.db as db
 
-from basecmd.exceptions import UnsetEnvironmentVariableException
+from biblio.exceptions import UnsetEnvironmentVariableException
 
 
 app = typer.Typer()
