@@ -11,7 +11,10 @@ setup(
     install_requires=[
         "typer",
         "sqlalchemy",
-        "rich"
+        "rich",
+        "PyQt5",
+        "Pillow",
+        "numpy"
     ],
     entry_points="""
     [console_scripts]

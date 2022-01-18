@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+pyuic5 gui_designer_files/abstract.ui -o lib/biblio/gui/abstract/MainWindowAppBase.py

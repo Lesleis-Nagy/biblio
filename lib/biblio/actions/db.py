@@ -1,5 +1,5 @@
 r"""
-Routines for database creation.
+Routines for database creation and querying database metadata.
 """
 
 import typer
